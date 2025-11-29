@@ -71,7 +71,7 @@ export default function Hero() {
 
           <div className="relative order-2 w-full">
             <div className="relative bg-white/5 backdrop-blur-xl rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-2xl border border-white/10">
-              <div className="bg-gradient-to-br from-gray-900/20 to-gray-800/20 backdrop-blur-sm rounded-lg overflow-hidden h-[280px] lg:h-[450px] sm:h-[350px] border border-white/5">
+              <div className="bg-gradient-to-br from-gray-900/20 to-gray-800/20 backdrop-blur-sm rounded-lg overflow-hidden  h-[280px] lg:h-[450px] sm:h-[350px] border border-white/5">
                 {/* IDE HEADER */}
                 <div className="flex items-center justify-between px-3 sm:px-4 py-2 sm:py-3 bg-white/5 backdrop-blur-sm border-b border-white/10">
                   <div className="flex sm:space-x-2 items-center">
