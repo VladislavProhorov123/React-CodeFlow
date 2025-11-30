@@ -91,7 +91,6 @@ export default function Features() {
                             fontSize: "0.8rem",
                             lineHeight: "1.4",
                             height: "100%",
-                            
                           }}
                           wrapLines={true}
                         >
