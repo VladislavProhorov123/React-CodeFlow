@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import React, { useState } from "react";
+import logo from '/src/assets/logo.png'
 
 export default function Navbar() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-1 group cursor-pointer">
             <div className="">
               <img
-                src="/logo.png"
+                src={logo}
                 alt="CodeFlow"
                 className="w-6 h-6 sm:w-8 sm:h-8"
               />
