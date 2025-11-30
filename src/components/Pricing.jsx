@@ -118,11 +118,19 @@ export default function Pricing() {
                     <div className="flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-blue-500/20 flex items-center justify-center mt-0.5">
                       <Check className="w-2.5 h-2.5 text-blue-400 sm:w-3 sm:h-3 " />
                     </div>
-                    <span className="text-gray-300 text-sm sm:text-base">{feature}</span>
+                    <span className="text-gray-300 text-sm sm:text-base">
+                      {feature}
+                    </span>
                   </li>
                 ))}
               </ul>
-              <button className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg font-semibold transition-all duration-300 mt-auto hover:scale-102 cursor-pointer text-sm sm:text-base ${plan.mostPopular ? "bg-gradient-to-b from-blue-500 to-cyan-500" : "bg-white/5 border border-white/10 hover:bg-white/10"}`}>
+              <button
+                className={`w-full py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg font-semibold transition-all duration-300 mt-auto hover:scale-102 cursor-pointer text-sm sm:text-base ${
+                  plan.mostPopular
+                    ? "bg-gradient-to-b from-blue-500 to-cyan-500"
+                    : "bg-white/5 border border-white/10 hover:bg-white/10"
+                }`}
+              >
                 Get Started
               </button>
             </div>
@@ -130,7 +138,10 @@ export default function Pricing() {
         </div>
         <div className="mt-8 sm:mt-12 text-center ">
           <p className="text-gray-400 text-base">
-            Need a custom plan? <a className="text-blue-400 hover:text-blue-300" href="#">Contact our sales team</a>
+            Need a custom plan?{" "}
+            <a className="text-blue-400 hover:text-blue-300" href="#">
+              Contact our sales team
+            </a>
           </p>
         </div>
       </div>
